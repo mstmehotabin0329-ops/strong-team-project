@@ -1,0 +1,27 @@
+
+font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* .hero-section{
+    background-image: url(../images/hero\ img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(130, 130, 252);
+} */
+
+.hero-section {
+    background-color: #172554;
+    background-image: none;
+}
+
+@media (min-width: 1024px) {
+    .hero-section {
+        background-image: url("../images/hero\ img.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
