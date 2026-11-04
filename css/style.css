@@ -25,3 +25,12 @@ font-open-sans {
         background-size: cover;
     }
 }
+.tansition{
+    transition: all 0.3s ease-in-out;
+    
+}
+.tansition:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(185, 185, 185);
+}
