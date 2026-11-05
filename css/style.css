@@ -1,7 +1,6 @@
-
 font-open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 /* .hero-section{
@@ -25,12 +24,32 @@ font-open-sans {
         background-size: cover;
     }
 }
-.tansition{
+
+.tansition {
     transition: all 0.3s ease-in-out;
-    
+
 }
-.tansition:hover{
+
+.tansition:hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     border: 1px solid rgb(185, 185, 185);
+}
+
+.gradiant-left-buttom {
+    background: linear-gradient(to bottom left,
+            #C7D6FF,
+            #E3FAF8,
+            #E8F9F7,
+            #F9F3F5
+            );
+}
+
+.gradiant-right-top {
+    background: linear-gradient(to bottom left,
+    #F9F3F5,
+    #E8F9F7,
+    #E3FAF8,
+    #C7D6FF
+);
 }
