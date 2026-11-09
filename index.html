@@ -25,6 +25,7 @@
 </head>
 
 <body>
+    <!-- 1. header section  -->
     <header>
         <nav class="bg-base-100 shadow-sm">
             <div class="navbar max-w-9/10 mx-auto">
@@ -140,7 +141,7 @@
                     <div class="card card-border bg-base-100 w-full">
                         <div class="card-body">
                             <div class="pb-5">
-                                <i class="fa-solid fa-book text-5xl bg-gray-200 p-2 rounded-sm"></i>
+                                <i class="fa-solid fa-layer-group text-5xl bg-gray-200 p-2 rounded-sm"></i>
                             </div>
                             <h2 class="card-title">Operations Coordinator</h2>
                             <p>A card component has a figure, a body part, and inside body there are title and actions
@@ -371,7 +372,8 @@
             <div class="pt-16 lg:max-w-9/10 max-w-8/10 mx-auto">
                 <div class="text-center">
                     <p class=" pb-5 text-[#0E2444]">How it work</p>
-                    <h1 class="lg:text-5xl text-4xl font-bold pb-7 text-[#0E2444] capitalize">Building your remote team,<br> made it
+                    <h1 class="lg:text-5xl text-4xl font-bold pb-7 text-[#0E2444] capitalize">Building your remote
+                        team,<br> made it
                         simple.
                     </h1>
                 </div>
@@ -379,45 +381,180 @@
                     <!-- card 1 -->
                     <div class="card bg-base-100 w-full shadow-sm p-3">
                         <div class="p-5">
-                            <img class="rounded-xl h-80 w-full" src="images/card1.png"
-                                alt="Shoes" />
+                            <img class="rounded-xl h-80 w-full" src="images/card1.png" alt="Shoes" />
                             <p class="text-xl uppercase pt-5">get to work</p>
                         </div>
                         <div class="card-body pt-5">
-                            <h2 class="card-title font-bold text-2xl">Make them part of your team</h2>
-                            <p class="text-xl">Your train them on your tools and manage their day-to-day work. We coordinate staffing and billing. </p>
-                            
+                            <h2 class="card-title font-bold text-2xl text-[#1D2B4F]">Make them part of your team</h2>
+                            <p class="text-xl text-[#373737]">Your train them on your tools and manage their day-to-day
+                                work. We coordinate staffing and billing. </p>
+
                         </div>
                     </div>
                     <!-- card 2  -->
                     <div class="card bg-base-100 w-full shadow-sm p-3">
                         <div class="p-5 ">
-                            <img class="rounded-xl h-80 w-full" src="images/card2.png"
-                                alt="Shoes" />
+                            <img class="rounded-xl h-80 w-full" src="images/card2.png" alt="Shoes" />
                             <p class="text-xl uppercase pt-5">discover</p>
                         </div>
                         <div class="card-body pt-5">
-                            <h2 class="card-title font-bold text-2xl">Share your requirement</h2>
-                            <p class="text-xl">Tell us what you need and your goals.</p>
-                            
+                            <h2 class="card-title font-bold text-2xl text-[#1D2B4F]">Share your requirement</h2>
+                            <p class="text-xl text-[#373737]">Tell us what you need and your goals.</p>
+
                         </div>
                     </div>
                     <!-- card 3 -->
                     <div class="card bg-base-100 w-full shadow-sm p-3">
                         <div class="p-5 ">
-                            <img class="rounded-xl h-80 w-full" src="images/card3.png"
-                                alt="Shoes" />
+                            <img class="rounded-xl h-80 w-full" src="images/card3.png" alt="Shoes" />
                             <p class="text-xl uppercase pt-5">choose</p>
                         </div>
                         <div class="card-body pt-5">
-                            <h2 class="card-title font-bold text-2xl">Meet your potential team member</h2>
-                            <p class="text-xl">We present candidates. You interview and select the person who fits.</p>
-                            
+                            <h2 class="card-title font-bold text-2xl text-[#1D2B4F]">Meet your potential team member
+                            </h2>
+                            <p class="text-xl text-[#373737]">We present candidates. You interview and select the person
+                                who fits.</p>
+
                         </div>
                     </div>
                 </div>
-                <div class="text-center">
-                    <button class="btn lg:btn-lg border border-black font-bold">Explore How it works <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="text-center pb-15">
+                    <button class="btn lg:btn-lg border border-black font-bold">Explore How it works <i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+        <!-- 6. See What your Team could cost  -->
+        <section>
+            <div class="max-w-9/10 mx-auto py-8">
+                <div class="grid lg:grid-cols-3 grid-cols-1 gap-8">
+                    <div class="col-span-1">
+                        <p class="text-[#1D2B4F] font-medium text-xl">Estimate Your cost</p>
+                        <h1 class="text-[#1D2B4F] font-bold lg:text-5xl text-4xl capitalize pt-5 leading-18">see what
+                            your team could
+                            cost
+                        </h1>
+                        <p class="text-[#606060] font-medium text-xl pt-5">Use our simple calculator to get monthly cost
+                            estimate based on your
+                            team
+                            size working your hours.</p>
+                    </div>
+                    <div class="lg:col-span-2 w-full shadow-sm p-8 border border-gray-200 rounded-xl">
+                        <div class="">
+                            <h2 class="font-semibold text-2xl leading-15">Where could you use a hand?</h2>
+                            <p>Choose a role to see what your new team member could on.</p>
+                        </div>
+                        <div class="pt-5">
+                            <h2 class="font-semibold text-2xl pb-5">Your Industry</h2>
+                            <div class="grid grid-cols-2 gap-4">
+                                <input type="text" name="name" id="name"
+                                    class="w-full rounded-sm border border-gray-300 p-2" placeholder="Full Name">
+                                <input type="text" name="Company" id="cName"
+                                    class="w-full rounded-sm border border-gray-300 p-2" placeholder="Company Name">
+                                <input type="email" name="email" id="email"
+                                    class="w-full rounded-sm border border-gray-300 p-2" placeholder="Email">
+                                <input type="number" name="phone" id="number"
+                                    class="w-full rounded-sm border border-gray-300 p-2" placeholder="Phnone Number">
+                            </div>
+                            <div class="grid grid-cols-3 gap-4 pt-4 text-gray-500">
+                                <select class="w-full rounded-sm border border-gray-300 p-2" name="" id="home">
+                                    <option value="home">Home Services</option>
+                                </select>
+                                <select class="w-full rounded-sm border border-gray-300 p-2" name="" id="team">
+                                    <option value="team">Team Size</option>
+                                </select>
+                                <select class="w-full rounded-sm border border-gray-300 p-2" name="" id="shedule">
+                                    <option value="shedule">Preferred Shedule</option>
+                                </select>
+                            </div>
+                            <div class="py-4">
+                                <input type="text" name="name" id="name"
+                                    class="lg:w-250 w-full rounded-sm border border-gray-300 p-2"
+                                    placeholder="You'd like us to know">
+                            </div>
+                        </div>
+                        <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 py-8">
+                            <div
+                                class="group flex items-center justify-between w-full rounded-xl border-2 border-gray-500 p-3 hover:bg-gray-200  cursor-pointer">
+                                <i class="fa-solid fa-user text-3xl"></i>
+                                <h3 class="font-semibold text-xl text-[#676767] group-hover:text-[#1D2B4F]">
+                                    Administrative Support</h3>
+                                <input class="w-5 h-5" type="checkbox" name="" id="">
+                            </div>
+                            <div
+                                class="group flex items-center justify-between w-full rounded-xl border-2 border-gray-500 p-3 hover:bg-gray-200  cursor-pointer">
+                                <i class="fa-solid fa-headset text-3xl "></i>
+                                <h3 class="font-semibold text-xl text-[#676767] group-hover:text-[#1D2B4F]">Customer
+                                    Support</h3>
+                                <input class="w-5 h-5" type="checkbox" name="" id="">
+                            </div>
+                            <div
+                                class="group flex items-center justify-between w-full rounded-xl border-2 border-gray-500 p-3 hover:bg-gray-200  cursor-pointer">
+                                <i class="fa-brands fa-sellsy text-3xl"></i>
+                                <h3 class="font-semibold text-xl text-[#676767] group-hover:text-[#1D2B4F]">Sales
+                                    Support</h3>
+                                <input class="w-5 h-5" type="checkbox" name="" id="">
+                            </div>
+                            <div
+                                class="group flex items-center justify-between w-full rounded-xl border-2 border-gray-500 p-3 hover:bg-gray-200  cursor-pointer">
+                                <i class="fa-solid fa-square-phone text-3xl"></i>
+                                <h3 class="font-semibold text-xl text-[#676767] group-hover:text-[#1D2B4F]">Marketing
+                                    Assistant</h3>
+                                <input class="w-5 h-5" type="checkbox" name="" id="">
+                            </div>
+                            <div
+                                class="group flex items-center justify-between w-full rounded-xl border-2 border-gray-500 p-3 hover:bg-gray-200  cursor-pointer">
+                                <i class="fa-solid fa-calendar text-3xl"></i>
+                                <h3 class="font-semibold text-xl text-[#676767] group-hover:text-[#1D2B4F]">Bookkeeping
+                                    Assistant</h3>
+                                <input class="w-5 h-5" type="checkbox" name="" id="">
+                            </div>
+                            <div
+                                class="group flex items-center justify-between w-full rounded-xl border-2 border-gray-500 p-3 hover:bg-gray-200  cursor-pointer">
+                                <i class="fa-solid fa-layer-group text-3xl"></i>
+                                <h3 class="font-semibold text-xl text-[#676767] group-hover:text-[#1D2B4F]">Opetational
+                                    coordinator</h3>
+                                <input class="w-5 h-5" type="checkbox" name="" id="">
+                            </div>
+                        </div>
+                        <div class="lg:flex gap-8">
+                            <div
+                                class="mt-5 w-25 h-25 bg-blue-950 text-center flex items-center justify-center rounded-xl">
+                                <i class="fa-regular fa-calendar text-5xl text-white"></i>
+                            </div>
+                            <div>
+                                <p class="capitalize text-[#1D2B4F] font-medium pt-5">Get your time back</p>
+                                <h2 class="font-bold lg:text-3xl text-xl lg:py-3 text-[#1D2B4F] capitalize py-3">Keep
+                                    the everyday details moving.</h2>
+                                <p class="text-sm font-medium">Use our simple calculator to get monthly cost estimate
+                                    based your team size working hours.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 7. section : Built from real business experience  -->
+        <section class="bg-[#1D2B4F]">
+            <div class="max-w-9/10 mx-auto flex justify-between gap-33 py-15 ">
+                <div>
+                    <p class="text-white">Founder Story </p>
+                    <h2 class="text-5xl font-bold text-white pt-8">Built from real Business <br> experience</h2>
+                    <p class="text-xl text-white pt-8">Strong team Staffing was founded by Mitchell Levin, based on
+                        hands-on montience building and managing a remote team for Cor Cartier Group. That experience
+                        showed how the right people, in the right roles can make a big difference.
+                        based on hands-on montience building and managing a remote team for Cor Cartier Group. That
+                        experience showed how the right people, in the right roles can make a big difference.
+                    </p>
+                    <button class="btn text-blue-950 bg-white mt-8 font-semibold">Watch the video</button>
+                </div>
+
+                <div>
+                    <iframe class="rounded-xl overflow-hidden" width="560" height="400"
+                        src="https://www.youtube.com/embed/q-udGIWQ7Cw?si=_d6kqzkzWJmf-uks" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
